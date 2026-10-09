@@ -1409,6 +1409,8 @@ strong { font-weight: 700; color: var(--ink); }
   box-shadow: 0 8px 18px -8px rgba(245,165,36,.7);
 }
 .contact-item .ci-icon svg { width: 23px; height: 23px; }
+.contact-item .ci-icon.brand { background: #fff; border: 1px solid var(--line); box-shadow: 0 8px 18px -10px rgba(7,12,31,.35); }
+.contact-item .ci-icon img { width: 30px; height: 30px; border-radius: 9px; display: block; }
 .contact-item .ci-label { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-2); font-weight: 600; margin-bottom: 4px; }
 .contact-item .ci-value {
   font-family: var(--font-display);
@@ -1436,6 +1438,7 @@ strong { font-weight: 700; color: var(--ink); }
   transition: transform .4s var(--ease), background .4s, color .4s, border-color .4s, box-shadow .4s;
 }
 .social-btn svg { width: 20px; height: 20px; }
+.social-btn img { width: 20px; height: 20px; border-radius: 6px; display: block; }
 .social-btn:hover {
   transform: translateY(-4px);
   background: var(--grad-amber);
